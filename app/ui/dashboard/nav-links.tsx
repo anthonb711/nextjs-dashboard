@@ -7,7 +7,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { useSearchParams, usePathname} from 'next/navigation';
 import clsx from 'clsx';
 
 
